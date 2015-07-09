@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-simpleperf_common_cppflags := -std=c++11 -Wall -Wextra -Werror -Wunused
+simpleperf_common_cppflags := -std=c++11 -Wall -Wextra -Werror -Wunused -Wno-pessimizing-move
 
 simpleperf_common_shared_libraries := \
   libbase \
